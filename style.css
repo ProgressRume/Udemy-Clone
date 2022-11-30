@@ -47,7 +47,12 @@ form {
     height: 3rem;
     width: 45%;
     background-color: rgb(242, 247, 247);
-    padding: 5px 0 5px 5px;
+    padding: 5px 0 5px 25px;
+}
+
+#sign-up {
+    background: black;
+    color: white;
 }
 
 form input {
@@ -118,7 +123,7 @@ form input {
 
 .third-section {
     height: 20vh;
-    margin: 3rem;
+    margin: 0 3rem;
 }
 
 .third-section h1 {
@@ -126,12 +131,24 @@ form input {
 
 }
 
-.third-section p,
-a {
+.third-section p {
     font-size: 20px;
     text-decoration: none;
+}
+
+.third-section a {
+    font: 15px;
+    color: black;
+    font-weight: 750;
+    padding-right: 25px;
+    text-decoration: none;
+    color: gray;
+}
+
+.third-section a:hover {
     color: black;
 }
+
 
 /* 
 Fourth Section */
@@ -157,7 +174,13 @@ Fourth Section */
 
 .fourth-section-2nd a {
     font: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
 
+#n-style {
+    font: st;
 }
 
 .python_class {
@@ -173,8 +196,8 @@ Fourth Section */
 
 #learn_python {
     font-size: 14px;
-
 }
+
 
 .python_class>a {
     text-decoration: none;
@@ -240,7 +263,6 @@ Fourth Section */
     padding: 0.8rem;
     margin-top: 2rem;
     height: 5rem;
-
 }
 
 /* Sixth Section */
@@ -358,7 +380,7 @@ Fourth Section */
 .instruction {
     margin: 5rem;
     font-size: 23px;
-    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     font-weight: 500;
     line-height: 1.25;
     letter-spacing: -.05rem;
@@ -411,11 +433,11 @@ Fourth Section */
     border: 1px solid white;
 }
 
-#footer_lang > .fa-globe {
+#footer_lang>.fa-globe {
     color: white;
 }
 
-#footer_lang > h4 {
+#footer_lang>h4 {
     font-size: 1rem;
     color: white;
     font-weight: 400;
